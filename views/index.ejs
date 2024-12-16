@@ -1,0 +1,13 @@
+<!-- Step 3 Add Header -->
+<%- include("partials/header.ejs") %>
+
+
+
+    <div class="pene">
+      <h1><%= randomMovie %></h1>
+    </div>
+<form action="/submit" method="POST">
+  <input type="submit" class="sugestão" value="Gerar sugestão">
+</form>
+<!-- Step 3 Add Footer -->
+<%- include("partials/footer.ejs") %>
